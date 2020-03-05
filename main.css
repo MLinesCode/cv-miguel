@@ -2,10 +2,16 @@ body {
   background-color: aliceblue;
 }
 
+.first-screen {
+  display: flex;
+}
+
 .container-profile {
-  height: 255px;
-  width: 255px;
-  border: 1px solid red;
+  height: 355px;
+  width: 355px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 1px solid red; */
 }
 .image-profile {
   height: 100%;
