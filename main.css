@@ -1,0 +1,12 @@
+body {
+  background-color: aliceblue;
+}
+
+.container-profile {
+  height: 255px;
+  width: 255px;
+  border: 1px solid red;
+}
+.image-profile {
+  height: 100%;
+}
