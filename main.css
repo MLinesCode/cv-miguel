@@ -1,18 +1,64 @@
 body {
-  background-color: aliceblue;
+  background-color: #f1f1f1;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: 0;
 }
 
+/* contenedor -> imagen y texto */
 .first-screen {
   display: flex;
+  margin-top: 10%;
+  justify-content: center;
 }
 
+/* imagen de perfil */
 .container-profile {
-  height: 355px;
-  width: 355px;
+  height: 260px;
+  width: 260px;
+  margin: 0;
   border-radius: 50%;
   overflow: hidden;
-  /* border: 1px solid red; */
 }
 .image-profile {
   height: 100%;
+}
+
+/* nombre - rol y descripcion */
+.description-container {
+  margin: 0;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 0;
+  margin-left: 4%;
+}
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 4%;
+}
+p {
+  width: 755px;
+  margin: 0;
+  margin-left: 4%;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* iconos */
+.link-container {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  margin: 0 35px 0 145px;
+}
+.social-link {
+  width: 68px;
+  height: 68px;
+  margin: 25px;
 }
