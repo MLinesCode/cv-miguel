@@ -62,3 +62,28 @@ p {
   height: 68px;
   margin: 25px;
 }
+
+/* proyectos */
+.project-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.project-container {
+  width: 220px;
+  height: 380px;
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+.project-detail {
+  width: 200px;
+}
+
+/* certificados */
+.sertificate-container {
+  width: 140px;
+  height: 90px;
+  border-radius: 6px;
+  border: 1px solid red;
+}
