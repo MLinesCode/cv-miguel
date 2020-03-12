@@ -3,6 +3,12 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
   margin: 0;
 }
+h3,
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 2% 1% 2% 1%;
+}
 
 /* contenedor -> imagen y texto */
 .first-screen {
@@ -78,6 +84,15 @@ p {
 }
 .project-detail {
   width: 200px;
+}
+.btn-go {
+  height: 28px;
+  width: 60px;
+  color: #f1f1f1;
+  background: #1d80f1;
+  border: none;
+  cursor: pointer;
+  border-radius: 10%;
 }
 
 /* certificados */
