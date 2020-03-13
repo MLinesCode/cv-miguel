@@ -7,7 +7,7 @@ h3,
 h4 {
   font-size: 30px;
   font-weight: 500;
-  margin: 2% 1% 2% 1%;
+  margin: 7% 1% 2% 1%;
 }
 
 /* contenedor -> imagen y texto */
@@ -95,10 +95,56 @@ p {
   border-radius: 10%;
 }
 
-/* certificados */
-.sertificate-container {
+/*----- GRID ------*/
+.education-container {
+  display: grid;
+}
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: #3c91f1;
+  border-radius: 5px;
+}
+.formation {
+  height: 200px;
+  width: 820px;
+  background: #aa0fda;
+}
+.formation2 {
+  height: 200px;
+  width: 820px;
+  background: #0ad81b;
+}
+.certificate {
+  height: 100px;
   width: 140px;
-  height: 90px;
+  background: #b5db0c;
+}
+
+/* certificados */
+.certificate-container {
+  width: 140px;
+  height: 100px;
+  margin: 0;
   border-radius: 6px;
   border: 1px solid red;
+}
+
+/* formacion */
+.p-university {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.p-carrer {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.p-date {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+.p-details {
+  font-size: 1.1rem;
+  font-weight: 300;  
 }
