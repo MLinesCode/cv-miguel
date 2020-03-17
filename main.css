@@ -181,3 +181,47 @@ footer p {
   font-size: 1.6em;
   text-align: center;
 }
+
+@media screen and (max-width: 481px) {
+  body {
+    background-color: #a9ccf5;
+  }
+  .first-screen {
+    display: block;
+    width: 100%;
+  }
+  .container-profile {
+    height: 220px;
+    width: 220px;
+    margin: auto;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  .description-container, h2, h1, p{
+    text-align: center;
+  }
+  .description-container, p {
+    font-size: 1.1rem;
+    width: 90%;
+  }
+  .link-container {
+    height: 60px;
+    margin: auto;
+    margin-top: 4%;
+  }
+  .social-link {
+    width: 60px;
+    height: 60px;
+    margin: 20px 16px;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  footer {
+    height: 55px;
+  }
+}
