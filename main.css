@@ -184,7 +184,7 @@ footer p {
 
 @media screen and (max-width: 481px) {
   body {
-    background-color: #a9ccf5;
+    background-color: #dde3e9;
   }
   .first-screen {
     display: block;
@@ -199,6 +199,7 @@ footer p {
     font-size: 1.9rem;
   }
   h2 {
+    margin-top: 10%;
     font-size: 2.2rem;
   }
   .description-container, h2, h1, p{
@@ -218,10 +219,64 @@ footer p {
     height: 60px;
     margin: 20px 16px;
   }
-  h3 {
+  h3, h4 {
     font-size: 1.6rem;
   }
+  .project-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project-one {
+    border: 1px solid #969696;
+    border-radius: 10px;
+    object-fit: contain;
+    overflow: hidden;
+    margin: 1%;
+  }
+  .project-container {
+    height: 200px;
+  }
+  .project-detail {
+    padding: 8px;
+    font-size: .8rem;
+    font-weight: 300;
+    margin: 0;
+  }
+  .btn-go {
+    height: 35px;
+    width: 90%;
+    margin: 8px 10px;
+    padding: 5px 15px 5px 15px ;
+    font-size: .95rem;
+    border-radius: 5px;
+  }
+  .education-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid-item .formation, p {
+    text-align: left;
+  }
+  .grid-item .formation2 {
+    margin-top: 50px;
+  }
+  .p-university {
+    font-size: 1.5rem;
+  }
+  .p-carrer {
+    font-size: 1.3rem;
+  }
+  .p-details {
+    font-size: 1rem;
+  }
+  .formation {
+    height: 250px;
+  }
+  .certificate-container {
+    height: 80px;
+    width: 85px;
+  }
   footer {
-    height: 55px;
+    height: 40px;
   }
 }
