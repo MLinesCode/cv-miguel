@@ -184,14 +184,11 @@ footer p {
 
 @media screen and (max-width: 767px) {
   body {
-    background-color: #e22e2e;
+    background-color: #ececec;
   }
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    background-color: #5193d4;
-  }
   .first-screen {
     display: block;
     width: 100%;
@@ -288,9 +285,6 @@ footer p {
 }
 
 @media screen and (max-width: 380px) {
-  body {
-    background-color: #23d123;
-  }
   .container-profile {
     height: 160px;
     width: 160px;
@@ -317,5 +311,26 @@ footer p {
     height: 45px;
     width: 45px;
     margin: 4%;
+  }
+  h3, h4 {
+    font-size: 1.4rem;
+  }
+  .project-one {
+    background-color: #f1f1f1;
+    width: 80%;
+    margin-top: 4%;
+  }
+  .project-container {
+    width: 100%;
+  }
+  .project-detail {
+    margin: auto;
+    width: 90%;
+  }
+  .btn-go {
+    margin: 2% 5%;
+    width: 90%;
+    font-weight: 500;
+    font-size: 1.2rem;
   }
 }
