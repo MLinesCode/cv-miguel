@@ -334,6 +334,9 @@ footer p {
     font-weight: 500;
     font-size: 1.2rem;
   }
+  .formation, .formation2 {
+    height: 240px;
+  }
   .p-university {
     text-align: left;
     font-size: 1.4rem;
@@ -349,5 +352,10 @@ footer p {
   .p-details {
     font-size: .9rem;
     font-weight: 300;
+  }
+  .certificate {
+    width: auto;
+    margin: 2%;
+    margin-top: 6%;
   }
 }
