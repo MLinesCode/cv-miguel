@@ -299,8 +299,9 @@ footer p {
   .description-container, p {
     font-size: 1rem;
     font-weight: 300;
+    text-align: justify;
   }
-  .description-container, h1, h2, p {
+  .description-container, h1, h2 {
     text-align: center;
     margin: auto;
   }
@@ -332,5 +333,21 @@ footer p {
     width: 90%;
     font-weight: 500;
     font-size: 1.2rem;
+  }
+  .p-university {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .p-carrer {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .p-date {
+    font-size: 1rem;
+  }
+  .p-details {
+    font-size: .9rem;
+    font-weight: 300;
   }
 }
