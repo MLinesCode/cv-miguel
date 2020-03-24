@@ -1,3 +1,6 @@
+:root {
+  --main-btn-color: #1463c4;
+}
 body {
   background-color: #f1f1f1;
   font-family: 'Hind Siliguri', sans-serif;
@@ -107,7 +110,7 @@ p {
   height: 34px;
   width: 50%;
   color: #f1f1f1;
-  background: #1d80f1;
+  background: var(--main-btn-color);
   border: none;
   margin: 2%;
   margin-left: 46%;
