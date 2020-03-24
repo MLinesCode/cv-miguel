@@ -76,9 +76,15 @@ p {
   align-items: center;
   justify-content: space-around;
 }
+.project-one {
+  border: 1px solid #969696;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #dde3ec;
+}
 .project-container {
-  width: 220px;
-  height: 380px;
+  width: 240px;
+  height: 340px;
   margin: 0;
   border-radius: 5px;
 }
@@ -88,19 +94,26 @@ p {
   object-fit: cover;
 }
 .project-detail {
-  width: 200px;
+  width: 220px;
   text-indent: 2px;
   text-align: justify;
   margin: 8px 0;
+  font-size: .9rem;
+  font-size: 500;
+  padding: 0 4%;
+  color: #4b4b4b;
 }
 .btn-go {
-  height: 28px;
-  width: 60px;
+  height: 34px;
+  width: 50%;
   color: #f1f1f1;
   background: #1d80f1;
   border: none;
+  margin: 2%;
+  margin-left: 46%;
   cursor: pointer;
-  border-radius: 10%;
+  border-radius: 8px;
+  font-weight: 500;
 }
 
 /*----- GRID ------*/
