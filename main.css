@@ -244,6 +244,33 @@ footer p {
     font-weight: 500;
     text-align: justify;
   }
+  .education-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .formation, .formation2 {
+    width: 95%;
+    margin: 1%;
+  }
+  .certificate-container {
+    height: 80px;
+    width: 80px;
+  }
+  footer {
+    height: 25px;
+  }
+  .certificate-container {
+    height: 140px;
+    width: 145px;
+  }
+  .certificate {
+    width: auto;
+    margin: 2%;
+    margin-top: 6%;
+  }
+  footer {
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 480px) {
