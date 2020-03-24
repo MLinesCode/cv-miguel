@@ -196,8 +196,53 @@ footer p {
 }
 
 @media screen and (max-width: 767px) {
-  body {
-    background-color: #ececec;
+  .first-screen {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-profile {
+    height: 250px;
+    width: 250px;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  p {
+    width: 90%;
+  }
+  .description-container p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .description-container, h2, h1 {
+    text-align: center;
+  }
+  .link-container {
+    margin: auto;
+  }
+  .social-link {
+    height: 70px;
+    width: 70px;
+  }
+  .project-section {
+    flex-wrap: wrap;
+  }
+  .project-one {
+    margin: 2%;
+    width: 35%;
+  }
+  .project-container {
+    width: 100%;
+  }
+  .project-detail {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
   }
 }
 
