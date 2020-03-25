@@ -216,8 +216,8 @@ footer p {
   p {
     width: 90%;
   }
-  .description-container p {
-    font-size: 1.7rem;
+  .description-container, p {
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: justify;
   }
@@ -364,11 +364,12 @@ footer p {
     font-size: 1rem;
   }
   .formation {
-    height: 260px;
+    height: 265px;
   }
   .certificate-container {
-    height: 80px;
-    width: 85px;
+    height: 130px;
+    width: 135px;
+    margin: 3%;
   }
   .education-container {
     display: flex;
@@ -435,7 +436,7 @@ footer p {
     font-size: 1.2rem;
   }
   .formation, .formation2 {
-    height: 250px;
+    height: 260px;
   }
   .p-university {
     text-align: left;
@@ -457,6 +458,10 @@ footer p {
     width: auto;
     margin: 2%;
     margin-top: 6%;
+  }
+  .certificate-container {
+    width: 130px;
+    height: 130px;
   }
   footer {
     height: 30px;
