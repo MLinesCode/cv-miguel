@@ -51,6 +51,32 @@ h1 {
   margin: 0;
   margin-left: 4%;
 }
+.wrapper {
+  height: 8vh;
+  display: flex;
+  margin: 0 0 0 -41.5%;
+  align-items: center;
+  justify-content: center;
+}
+.typing-dem {
+  width: 26.5rem;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family:'Hind Siliguri', sans-serif;
+  font-size: 2rem;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 p {
   width: 755px;
   margin: 0;
@@ -218,6 +244,12 @@ footer p {
   h1 {
     font-size: 1.9rem;
   }
+  .typing-dem {
+    width: 21rem;
+    margin: 0 -29% 0 0;
+    align-items: center;
+    justify-content: center;
+  }
   h2 {
     font-size: 2.4rem;
   }
@@ -283,7 +315,6 @@ footer p {
     height: 40px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .first-screen {
     display: block;
@@ -296,6 +327,12 @@ footer p {
   }
   h1 {
     font-size: 1.9rem;
+  }
+  .typing-dem {
+    width: 21rem;
+    margin: 0 -27% 0 0;
+    align-items: center;
+    justify-content: center;
   }
   h2 {
     margin-top: 10%;
@@ -392,7 +429,6 @@ footer p {
     height: 40px;
   }
 }
-
 @media screen and (max-width: 380px) {
   .container-profile {
     height: 160px;
@@ -401,6 +437,12 @@ footer p {
   }
   h1 {
     font-size: 1.6rem;
+  }
+  .typing-dem {
+    width: 17rem;
+    margin: 0 -30% 0 0;
+    align-items: center;
+    justify-content: center;
   }
   h2 {
     font-size: 1.8rem;
