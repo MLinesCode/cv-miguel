@@ -102,19 +102,24 @@ p {
 
 /* proyectos */
 .project-section {
-  display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.project-article {
+  margin: 1.5%;
+  display: flex;
+  justify-content: space-evenly;
+}
 .project-one {
+  display: flex;
   border: 1px solid #969696;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #dde3ec;
+  background-color: #e0ecf0;
 }
 .project-container {
   width: 240px;
-  height: 340px;
+  height: 21.8rem;
   margin: 0;
   border-radius: 5px;
 }
@@ -123,34 +128,52 @@ p {
   width: inherit;
   object-fit: cover;
 }
+.data {
+  width: 19rem;
+}
 .project-title {
-  margin-left: 22%;
+  margin: 0;
+  margin-top: 10%;
   height: 25px;
   width: 100%;
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
 }
 .project-detail {
-  width: 220px;
+  width: 265px;
   text-indent: 2px;
   text-align: justify;
-  margin: 8px 0;
+  margin: 5px;
+  margin-top: 6%;
+  padding: 2%;
   font-size: .9rem;
-  font-size: 500;
-  padding: 0 4%;
+  font-weight: 400;
   color: #4b4b4b;
+  justify-content: center;
+}
+.project-stack {
+  height: 45px;
+  display: flex;
+  margin-top: 3%;
+}
+.stack {
+  height: inherit;
+  width: inherit;
+  margin: 0 10px;
 }
 .btn-go {
-  height: 34px;
-  width: 50%;
+  height: 2.2rem;
+  width: 90%;
   color: #f1f1f1;
   background: var(--main-btn-color);
   border: none;
-  margin: 2%;
-  margin-left: 46%;
+  margin: 5%;
+  margin-top: 7%;
   cursor: pointer;
   border-radius: 8px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 /*----- GRID ------*/
