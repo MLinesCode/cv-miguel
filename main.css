@@ -585,3 +585,19 @@ footer p {
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .project-title {
+    font-size: 1.1rem;
+    width: 10rem;
+  }
+  .project-detail {
+    font-size: .71rem;
+  }
+  .btn-go {
+    position: relative;
+    bottom: 3.7rem;
+    height: 31px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
