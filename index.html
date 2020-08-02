@@ -5,8 +5,9 @@
   <meta name="description" content="Front-end Developer portafolio"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="minify.css">
   <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400,600&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/bd03114e44.js" crossorigin="anonymous"></script>
   <title>Front-end Developer</title>
 </head>
 <body>
@@ -27,10 +28,10 @@
     </div>
   </section>
   <div class="link-container">
-    <img class="social-link" src="./icons/linkedin.svg" alt="icono de linkedin">
     <img class="social-link" src="./icons/react.svg" alt="icono de reactjs">
     <img class="social-link" src="./icons/sass.svg" alt="icono de sass">
     <img class="social-link" src="./icons/angular.svg" alt="icono de angular">
+    <img class="social-link" src="./icons/linkedin.svg" alt="icono de linkedin">
     <img class="social-link" src="./icons/github.svg" alt="icono de github">
   </div>
   <h3>Proyectos</h3>
@@ -136,9 +137,39 @@
       <form action=""></form>
     </div>
   </section>
+  <!-- <h4>Contactame</h4> -->
+  <section class="contact-form">
+    <div class="container">
+      <div class="header-form">
+        <h3>Contactame</h3>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nombre</label>
+          <input type="text" placeholder="John Doe" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Email</label>
+          <input type="email" placeholder="correo@mail.com" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="message">Escribe tu mensaje</label>
+          <textarea name="" id="" cols="0" rows="9"></textarea>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </section>
   <footer>
-    <p class="footer-legal">Miguel García © 2020</p>
+    <p class="footer-legal">Miguel García © 2020 - Todos los derechos reservados</p>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>
 <!-- create by specter -->
