@@ -142,7 +142,7 @@ p {
 }
 .project-container {
   width: 240px;
-  height: 21.8rem;
+  height: 22.99rem;
   margin: 0;
   border-radius: 5px;
 }
@@ -673,7 +673,7 @@ footer p {
   .project-one {
     background-color: #f1f1f1;
     width: 90%;
-    margin-top: 4%;
+    margin-top: 8%;
   }
   .project-container {
     width: 100%;
@@ -689,6 +689,8 @@ footer p {
   }
   .project-stack {
     position: relative;
+    height: 42px;
+    width: 42px;
   }
   .btn-go {
     margin: -1% 5% 1% 5%;
@@ -696,6 +698,7 @@ footer p {
     height: 35px;
     font-weight: 500;
     font-size: 1.2rem;
+    bottom: 2.5rem;
   }
   .formation, .formation2 {
     height: 260px;
@@ -760,15 +763,13 @@ footer p {
   .project-container {
     filter: blur(.6px);
   }
-  .project-stack {
-    background-color: #011a38;
-  }
   .project-detail {
     margin-top: -1.8%;
   }
   .btn-go {
     margin-top: -.7%;
     font-weight: 600;
+    bottom: 2.6rem;
   }
   footer {
     height: auto;
