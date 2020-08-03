@@ -383,6 +383,26 @@ footer {
   padding: 5px;
   background: #383838;
 }
+.social {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icon-social {
+  height: 1.9rem;
+  width: 1.9rem;
+  display: inline;
+  margin: .5rem 1.3rem;
+  background-size: 1.9rem;
+}
+.icon-social.twitter {
+  background-image: url('./icons/twitter.svg');
+}
+.icon-social.instagram {
+  background-image: url('./icons/instagram.svg');
+}
 footer p {
   margin: auto;
   font-size: 1.4em;
@@ -627,6 +647,7 @@ footer p {
   footer {
     height: auto;
     font-size: .8rem;
+    background-color: #121212;
   }
 }
 @media screen and (max-width: 380px) {
