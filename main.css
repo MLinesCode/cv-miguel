@@ -101,11 +101,14 @@ p {
   height: 68px;
   margin: 25px;
   margin-top: 50px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
   transition: width .25s, box-shadow .25s;
 }
 .social-link:hover {
   box-shadow: 0 0 15px rgba(45, 241, 150, 0);
   width: 200px;
+  filter: grayscale(0);
 }
 
 /* proyectos */
@@ -138,6 +141,7 @@ p {
   height: inherit;
   width: inherit;
   object-fit: cover;
+  filter: opacity(92%);
 }
 .data {
   width: 17.9rem;
@@ -174,6 +178,7 @@ p {
   height: inherit;
   width: inherit;
   margin: 0 10px;
+  filter: drop-shadow(3px 5px 6px #929292);
 }
 .btn-go {
   height: 2.2rem;
@@ -190,14 +195,17 @@ p {
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: 2px;
+  user-select: none;
 }
 .btn-go:hover {
-  cursor: pointer;
   transform: translateY(-3px);
   box-shadow: 4px 2px 5px #99999999;
+  border: 2px solid #777;
 }
 .btn-go:active {
   transform: translateY(3px);
+  background-color: var(--main-bground-color);
+  color: var(--main-btn-color);
 }
 
 /*----- GRID ------*/
@@ -282,6 +290,7 @@ p {
 	background-color: var(--main-btn-color);
   padding: 20px 40px;
   height: 3rem;
+  user-select: none;
 }
 .header-form h3 {
   margin-top: .8%;
@@ -311,6 +320,7 @@ p {
 	font-size: 14px;
 	padding: 10px;
 	width: 100%;
+  user-select: none;
 }
 .form-control textarea {
   display: block;
@@ -374,6 +384,11 @@ p {
 	margin-top: 20px;
   width: 100%;
   cursor: pointer;
+  user-select: none;
+}
+.form button:active {
+  background-color: var(--main-bground-color);
+  color: var(--main-btn-color);
 }
 
 /* seccion del footer */
@@ -393,7 +408,10 @@ footer {
 .icon-social {
   display: inline;
   margin: .5rem 1.3rem;
-  background-size: 1.9rem;
+  background-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
 }
 .icon-social.twitter {
   background-image: url('./icons/twitter.svg');
@@ -586,11 +604,7 @@ footer p {
     position: relative;
   }
   .project-stack {
-    height: 30px;
-    width: 2.2rem;
-    position: relative;
-    top: -315px;
-    flex-wrap: wrap;
+    visibility: hidden;
   }
   .stack {
     margin: 5px 0;
