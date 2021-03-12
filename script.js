@@ -16,15 +16,15 @@ function checkInputs() {
 	const emailValue = email.value.trim();
 	
 	if(usernameValue === '') {
-		setErrorFor(username, 'Username cannot be blank');
+		setErrorFor(username, 'Introduce tu nombre');
 	} else {
 		setSuccessFor(username);
 	}
 	
 	if(emailValue === '') {
-		setErrorFor(email, 'Email cannot be blank');
+		setErrorFor(email, 'Email no puede ir en blanco');
 	} else if (!isEmail(emailValue)) {
-		setErrorFor(email, 'Not a valid email');
+		setErrorFor(email, 'Email no valido');
 	} else {
 		setSuccessFor(email);
 	}
