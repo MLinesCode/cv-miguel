@@ -615,7 +615,7 @@ footer {
   .btn-go {
     height: 45px;
     width: 90%;
-    margin: 1% 5%;
+    margin: 8% 5% -2% 5%;
     padding: 5px 15px 5px 15px ;
     font-size: 1.4rem;
     font-weight: 600;
@@ -732,7 +732,6 @@ footer {
     width: 42px;
   }
   .btn-go {
-    margin: -1% 5% 1% 5%;
     width: 90%;
     height: 35px;
     font-weight: 500;
@@ -812,7 +811,7 @@ footer {
   .btn-go {
     font-weight: 600;
     font-size: 1.4rem;
-    height: 45px;
+    height: 42px;
   }
   footer {
     height: auto;
