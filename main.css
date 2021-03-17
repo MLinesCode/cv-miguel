@@ -14,7 +14,7 @@ h3,
 h4 {
   font-size: 30px;
   font-weight: 500;
-  margin: 7% 1% 2% 1%;
+  margin: 7% 1% 2% 2%;
 }
 
 /* contenedor -> imagen y texto */
@@ -216,68 +216,57 @@ p {
   color: var(--main-btn-color);
 }
 
-/*----- GRID ------*/
-.education-container {
-  display: grid;
-  grid-template-columns: [first] 820px [line2] 200px [line3] 200px [end];
-  grid-template-rows: [row1-start] 200px [row2] 200px [end];
-  grid-column-gap: 16px;
-  grid-row-gap: 10px;
-  justify-content: center;
-}
-.grid-item {
-  width: 160px;
-  height: 120px;
-  float: left;
-  border-radius: 5px;
-}
-.formation {
-  height: 200px;
-  width: 820px;
-  justify-self: stretch;
-}
-.formation2 {
-  height: 200px;
-  width: 820px;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
-.certificate {
-  height: 86%;
-  width: 100%;
-  align-self: center;
-  justify-self: center;
-}
-
-/* certificados */
-.certificate-container {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  border-radius: 6px;
-}
-.certificate-img {
-  width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-/* formacion */
 .p-university {
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 1.5rem;
 }
 .p-carrer {
   font-size: 1.3rem;
-  font-weight: 600;
-}
-.p-date {
-  font-size: 1.1rem;
-  font-weight: 200;
 }
 .p-details {
   font-size: 1.1rem;
-  font-weight: 300;  
+}
+.formation {
+  height: 200px;
+}
+
+/*----- GRID ------*/
+.education {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.p-university {
+  text-align: left;
+  font-weight: 500;
+}
+.p-carrer {
+  font-weight: 600;
+}
+.p-details {
+  font-weight: 300;
+}
+
+.formation-container {
+  width: 48rem;
+}
+.certificate-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto; 
+  column-gap: 0;
+  row-gap: 0;
+}
+.certificate-container {
+  height: 150px;
+  width: 200px;
+}
+.certificate-img {
+  height: inherit;
+  width: inherit;
 }
 
 /* seccion de formulario */
@@ -547,8 +536,8 @@ footer {
     margin-top: 10%;
     font-size: 2.2rem;
   }
-  .description-container, h2, h1, p{
-    text-align: center;
+  h3, h4 {
+    margin: 7% 1% 2% 7%;
   }
   .description-container, p {
     font-size: 1.1rem;
@@ -562,7 +551,7 @@ footer {
   .social-link {
     width: 60px;
     height: 60px;
-    margin: 20px 16px;
+    margin: 20px 12px;
   }
   h3, h4 {
     font-size: 1.6rem;
@@ -625,32 +614,30 @@ footer {
   .btn-go:hover {
     box-shadow: 4px 2px 5px #707070;
   }
-  .grid-item .formation, p {
-    text-align: left;
+  .education {
+    flex-wrap: wrap;
   }
-  .grid-item .formation2 {
-    margin-top: 50px;
+  .certificate-container {
+    column-gap: 12px;
+    row-gap: 12px;
   }
   .formation, .formation2 {
     height: 250px;
     margin-top: 4%;
     padding: 3%;
   }
-  .p-university {
-    font-size: 1.5rem;
-  }
-  .p-carrer {
-    font-size: 1.3rem;
-  }
   .p-details {
     font-size: 1rem;
   }
   .formation {
-    height: 265px;
+    height: 290px;
+  }
+  .formation-container {
+    margin-bottom: 6%;
   }
   .certificate-container {
     height: 130px;
-    width: 135px;
+    width: 180px;
     margin: 3%;
   }
   .education-container {
@@ -661,6 +648,9 @@ footer {
     width: auto;
     margin: 2%;
     margin-top: 6%;
+  }
+  .contact-form {
+    margin-top: 26vh;
   }
   footer {
     height: auto;
@@ -737,33 +727,19 @@ footer {
     font-weight: 500;
     font-size: 1.2rem;
   }
-  .formation, .formation2 {
-    height: 260px;
+  .formation-container {
+    margin-bottom: 25%;
   }
-  .p-university {
-    text-align: left;
-    font-size: 1.4rem;
-    font-weight: 500;
-  }
-  .p-carrer {
-    font-size: 1.3rem;
-    font-weight: 600;
-  }
-  .p-date {
-    font-size: 1rem;
-  }
-  .p-details {
-    font-size: 1rem;
-    font-weight: 300;
+  .formation .formation2 {
+    height: 270px;
   }
   .certificate {
     width: auto;
     margin: 2%;
-    margin-top: 6%;
   }
   .certificate-container {
-    width: 130px;
-    height: 130px;
+    width: 155px;
+    height: 120px;
   }
   .header-form {
     border-bottom: 1px solid #636363;
@@ -786,7 +762,7 @@ footer {
 }
 @media screen and (max-width: 360px) {
   .description-container, p {
-    padding: 3%;
+    padding: 1%;
     margin: auto;
   }
   .social-link {
