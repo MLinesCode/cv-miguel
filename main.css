@@ -624,6 +624,7 @@ footer {
   .formation, .formation2 {
     height: 250px;
     margin-top: 4%;
+    margin-bottom: 12%;
     padding: 3%;
   }
   .p-details {
@@ -728,7 +729,7 @@ footer {
     font-size: 1.2rem;
   }
   .formation-container {
-    margin-bottom: 25%;
+    margin-bottom: 24%;
   }
   .formation .formation2 {
     height: 270px;
