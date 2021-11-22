@@ -10,11 +10,11 @@ body {
   color: #FFFFFF; /* #d8d8d8 */
   box-sizing: border-box;
 }
-h3,
-h4 {
-  font-size: 30px;
+h2,
+h3 {
+  font-size: 2.4rem;
   font-weight: 500;
-  margin: 7% 1% 2% 2%;
+  margin: 8% 1% 2% 2%;
 }
 
 /* contenedor -> imagen y texto */
